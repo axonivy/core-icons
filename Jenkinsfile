@@ -20,6 +20,7 @@ pipeline {
           maven cmd: "clean deploy"
         }
         archiveArtifacts 'target/*.jar'
+        recordIssues tools: [mavenConsole()], unstableTotalAll: 1
       }
     }
   }
