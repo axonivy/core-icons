@@ -19,7 +19,7 @@ pipeline {
         script {
           maven cmd: "clean deploy"
         }
-        archiveArtifacts 'target/*.zip'
+        archiveArtifacts 'target/*.jar'
       }
     }
   }
