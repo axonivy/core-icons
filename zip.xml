@@ -14,7 +14,7 @@
             <outputDirectory>${assembly.outputdir}</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>icons-img</directory>
+            <directory>icons-im</directory>
             <outputDirectory>${assembly.outputdir}</outputDirectory>
         </fileSet>
         <fileSet>
