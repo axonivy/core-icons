@@ -20,7 +20,7 @@ pipeline {
           maven cmd: "clean deploy"
         }
         archiveArtifacts 'target/*.jar'
-        recordIssues tools: [mavenConsole()], unstableTotalAll: 1
+        recordIssues tools: [mavenConsole()], qualityGates: [[threshold: 1, type: 'TOTAL']]
       }
     }
   }
