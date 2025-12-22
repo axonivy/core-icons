@@ -1,3 +1,9 @@
-# Icons for the Axon Ivy Product
+# Icons for the Axon Ivy Eclipse based Designer
 
-In this repository we store icons for the Axon Ivy product, which are deployed to a Maven artifactory. Most of the images are binary objects and should not bloat our core repository.
+In this repository we store icons for the Axon Ivy Eclipse based Designer, which
+are deployed to a Maven artifactory and re-integrated over `thirdparty-libs`.
+
+## Deprecation
+
+Axon Ivy 14 is no longer shipped with an Eclipse based Designer, therefore
+these icons are no longer needed.
